@@ -4,6 +4,7 @@
 import 'dart:io';
 
 final namesFile = File('lib/src/names.dart');
+final namesFileStream = namesFile.openWrite(mode: FileMode.append);
 
 void main() async {
   if (await namesFile.exists()) {
@@ -13,9 +14,18 @@ void main() async {
   final files = await Directory('lib/src').list().toList();
   for (final file in files) {
     if (file is File) {
+      namesFileStream.write("import '${file.path.split('/').last}';\n");
+    }
+  }
+  namesFileStream.write('\n\n');
+  await namesFileStream.flush();
+
+  for (final file in files) {
+    if (file is File) {
       await _doParse(file);
     }
   }
+  await namesFileStream.close();
 }
 
 final classNameReg = RegExp(r'class (\w+) {');
@@ -31,8 +41,7 @@ Future<void> _doParse(File f) async {
       if (classNameMatch != null) {
         final matchStr = classNameMatch.group(1);
         if (matchStr != null) {
-          final lowerFirst = matchStr[0].toLowerCase() + matchStr.substring(1);
-          className = lowerFirst;
+          className = matchStr;
         }
       }
       continue;
@@ -58,13 +67,12 @@ Future<void> _doParse(File f) async {
     return;
   }
 
-  final stream = namesFile.openWrite(mode: FileMode.append);
-  stream.write('const ${className}Names = [');
+  final lowerFirst = className[0].toLowerCase() + className.substring(1);
+  namesFileStream.write('const ${lowerFirst}Names = {');
   for (final name in names) {
-    stream.write("'$name',");
+    namesFileStream.write('\n "$name": $className.$name,');
   }
-  stream.write('];\n\n');
-  await stream.flush();
-  await stream.close();
+  namesFileStream.write('};\n\n');
+  await namesFileStream.flush();
   print('Updated ${f.path}');
 }
