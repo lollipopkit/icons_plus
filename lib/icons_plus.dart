@@ -17,3 +17,4 @@ export 'src/octicons.dart';
 export 'src/pixelarticons.dart';
 export 'src/teenyicons.dart';
 export 'src/zondicons.dart';
+export 'src/names.dart';

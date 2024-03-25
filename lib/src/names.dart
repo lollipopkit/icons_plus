@@ -1121,8 +1121,8 @@ const clarityNames = {
  "yen_line": Clarity.yen_line,
  "yen_solid": Clarity.yen_solid,
  "zoom_in_line": Clarity.zoom_in_line,
- "zoom_out_line": Clarity.zoom_out_line,};
-
+ "zoom_out_line": Clarity.zoom_out_line,
+};
 const flagsNames = {
  "abkhazia": Flags.abkhazia,
  "afghanistan": Flags.afghanistan,
@@ -1354,8 +1354,8 @@ const flagsNames = {
  "wales": Flags.wales,
  "yemen": Flags.yemen,
  "zambia": Flags.zambia,
- "zimbabwe": Flags.zimbabwe,};
-
+ "zimbabwe": Flags.zimbabwe,
+};
 const bootstrapNames = {
  "circle": Bootstrap.circle,
  "circle_fill": Bootstrap.circle_fill,
@@ -3407,8 +3407,8 @@ const bootstrapNames = {
  "yin_yang": Bootstrap.yin_yang,
  "youtube": Bootstrap.youtube,
  "zoom_in": Bootstrap.zoom_in,
- "zoom_out": Bootstrap.zoom_out,};
-
+ "zoom_out": Bootstrap.zoom_out,
+};
 const heroIconsNames = {
  "academic_cap": HeroIcons.academic_cap,
  "adjustments_horizontal": HeroIcons.adjustments_horizontal,
@@ -3704,8 +3704,8 @@ const heroIconsNames = {
  "wrench": HeroIcons.wrench,
  "wrench_screwdriver": HeroIcons.wrench_screwdriver,
  "x_circle": HeroIcons.x_circle,
- "x_mark": HeroIcons.x_mark,};
-
+ "x_mark": HeroIcons.x_mark,
+};
 const evaIconsNames = {
  "activity_outline": EvaIcons.activity_outline,
  "alert_circle_outline": EvaIcons.alert_circle_outline,
@@ -4196,8 +4196,8 @@ const evaIconsNames = {
  "volume_off": EvaIcons.volume_off,
  "volume_up": EvaIcons.volume_up,
  "wifi": EvaIcons.wifi,
- "wifi_off": EvaIcons.wifi_off,};
-
+ "wifi_off": EvaIcons.wifi_off,
+};
 const zondIconsNames = {
  "add_outline": ZondIcons.add_outline,
  "add_solid": ZondIcons.add_solid,
@@ -4495,8 +4495,8 @@ const zondIconsNames = {
  "wrench": ZondIcons.wrench,
  "yin_yang": ZondIcons.yin_yang,
  "zoom_in": ZondIcons.zoom_in,
- "zoom_out": ZondIcons.zoom_out,};
-
+ "zoom_out": ZondIcons.zoom_out,
+};
 const antDesignNames = {
  "account_book_twotone": AntDesign.account_book_twotone,
  "alert_twotone": AntDesign.alert_twotone,
@@ -5286,8 +5286,8 @@ const antDesignNames = {
  "youtube_fill": AntDesign.youtube_fill,
  "yuque_fill": AntDesign.yuque_fill,
  "zhihu_circle_fill": AntDesign.zhihu_circle_fill,
- "zhihu_square_fill": AntDesign.zhihu_square_fill,};
-
+ "zhihu_square_fill": AntDesign.zhihu_square_fill,
+};
 const octIconsNames = {
  "accessibility": OctIcons.accessibility,
  "accessibility_inset": OctIcons.accessibility_inset,
@@ -5611,8 +5611,8 @@ const octIconsNames = {
  "x_circle_fill": OctIcons.x_circle_fill,
  "zap": OctIcons.zap,
  "zoom_in": OctIcons.zoom_in,
- "zoom_out": OctIcons.zoom_out,};
-
+ "zoom_out": OctIcons.zoom_out,
+};
 const fontAwesomeNames = {
  "a_solid": FontAwesome.a_solid,
  "address_book_solid": FontAwesome.address_book_solid,
@@ -7643,8 +7643,8 @@ const fontAwesomeNames = {
  "yelp_brand": FontAwesome.yelp_brand,
  "yoast_brand": FontAwesome.yoast_brand,
  "youtube_brand": FontAwesome.youtube_brand,
- "zhihu_brand": FontAwesome.zhihu_brand,};
-
+ "zhihu_brand": FontAwesome.zhihu_brand,
+};
 const teenyIconsNames = {
  "num360": TeenyIcons.num360,
  "ab_testing": TeenyIcons.ab_testing,
@@ -8244,8 +8244,8 @@ const teenyIconsNames = {
  "youtube": TeenyIcons.youtube,
  "zip": TeenyIcons.zip,
  "zoom_in": TeenyIcons.zoom_in,
- "zoom_out": TeenyIcons.zoom_out,};
-
+ "zoom_out": TeenyIcons.zoom_out,
+};
 const pixelArtIconsNames = {
  "num4g": PixelArtIcons.num4g,
  "num4k": PixelArtIcons.num4k,
@@ -8724,8 +8724,8 @@ const pixelArtIconsNames = {
  "wind": PixelArtIcons.wind,
  "zap": PixelArtIcons.zap,
  "zoom_in": PixelArtIcons.zoom_in,
- "zoom_out": PixelArtIcons.zoom_out,};
-
+ "zoom_out": PixelArtIcons.zoom_out,
+};
 const brandsNames = {
  "bmo": Brands.bmo,
  "kiki": Brands.kiki,
@@ -9757,8 +9757,8 @@ const brandsNames = {
  "warframe": Brands.warframe,
  "wargaming": Brands.wargaming,
  "wii": Brands.wii,
- "zepeto": Brands.zepeto,};
-
+ "zepeto": Brands.zepeto,
+};
 const iconsaxNames = {
  "aave_aave_outline": Iconsax.aave_aave_outline,
  "android_outline": Iconsax.android_outline,
@@ -12739,8 +12739,8 @@ const iconsaxNames = {
  "wifi_square_bold": Iconsax.wifi_square_bold,
  "wind_bold": Iconsax.wind_bold,
  "wind_2_bold": Iconsax.wind_2_bold,
- "woman_bold": Iconsax.woman_bold,};
-
+ "woman_bold": Iconsax.woman_bold,
+};
 const boxIconsNames = {
  "bxs_add_to_queue": BoxIcons.bxs_add_to_queue,
  "bxs_adjust": BoxIcons.bxs_adjust,
@@ -14375,8 +14375,8 @@ const boxIconsNames = {
  "bxl_yahoo": BoxIcons.bxl_yahoo,
  "bxl_yelp": BoxIcons.bxl_yelp,
  "bxl_youtube": BoxIcons.bxl_youtube,
- "bxl_zoom": BoxIcons.bxl_zoom,};
-
+ "bxl_zoom": BoxIcons.bxl_zoom,
+};
 const lineAwesomeNames = {
  "num500px": LineAwesome.num500px,
  "accessible_icon": LineAwesome.accessible_icon,
@@ -15920,8 +15920,8 @@ const lineAwesomeNames = {
  "yoast": LineAwesome.yoast,
  "youtube": LineAwesome.youtube,
  "youtube_square": LineAwesome.youtube_square,
- "zhihu": LineAwesome.zhihu,};
-
+ "zhihu": LineAwesome.zhihu,
+};
 const mingCuteNames = {
  "ABS_fill": MingCute.ABS_fill,
  "ABS_line": MingCute.ABS_line,
@@ -18592,8 +18592,8 @@ const mingCuteNames = {
  "zoom_in_fill": MingCute.zoom_in_fill,
  "zoom_in_line": MingCute.zoom_in_line,
  "zoom_out_fill": MingCute.zoom_out_fill,
- "zoom_out_line": MingCute.zoom_out_line,};
-
+ "zoom_out_line": MingCute.zoom_out_line,
+};
 const ionIconsNames = {
  "accessibility": IonIcons.accessibility,
  "add_circle": IonIcons.add_circle,
@@ -19033,5 +19033,26 @@ const ionIconsNames = {
  "water": IonIcons.water,
  "wifi": IonIcons.wifi,
  "wine": IonIcons.wine,
- "woman": IonIcons.woman,};
+ "woman": IonIcons.woman,
+};
 
+
+const packNames = {
+ "clarity": clarityNames,
+ "flags": flagsNames,
+ "bootstrap": bootstrapNames,
+ "heroIcons": heroIconsNames,
+ "evaIcons": evaIconsNames,
+ "zondIcons": zondIconsNames,
+ "antDesign": antDesignNames,
+ "octIcons": octIconsNames,
+ "fontAwesome": fontAwesomeNames,
+ "teenyIcons": teenyIconsNames,
+ "pixelArtIcons": pixelArtIconsNames,
+ "brands": brandsNames,
+ "iconsax": iconsaxNames,
+ "boxIcons": boxIconsNames,
+ "lineAwesome": lineAwesomeNames,
+ "mingCute": mingCuteNames,
+ "ionIcons": ionIconsNames,
+};

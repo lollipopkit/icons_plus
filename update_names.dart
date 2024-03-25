@@ -20,18 +20,29 @@ void main() async {
   namesFileStream.write('\n\n');
   await namesFileStream.flush();
 
+  final classNames = <String>{};
   for (final file in files) {
     if (file is File) {
-      await _doParse(file);
+      final className = await _doParse(file);
+      if (className != null) {
+        classNames.add(className);
+      }
     }
   }
+
+  namesFileStream.write('\n\nconst packNames = {');
+  for (final className in classNames) {
+    final classNameLower = className.lowerFirst;
+    namesFileStream.write('\n "$classNameLower": ${classNameLower}Names,');
+  }
+  namesFileStream.write('\n};\n');
   await namesFileStream.close();
 }
 
 final classNameReg = RegExp(r'class (\w+) {');
 final constNameReg = RegExp(r'static const (\w+) = ');
 
-Future<void> _doParse(File f) async {
+Future<String?> _doParse(File f) async {
   final lines = await f.readAsLines();
   final names = <String>{};
   String? className;
@@ -60,19 +71,23 @@ Future<void> _doParse(File f) async {
 
   if (className == null) {
     print('No class name found in ${f.path}');
-    return;
+    return null;
   }
   if (names.isEmpty) {
     print('No names found in ${f.path}');
-    return;
+    return null;
   }
 
-  final lowerFirst = className[0].toLowerCase() + className.substring(1);
-  namesFileStream.write('const ${lowerFirst}Names = {');
+  namesFileStream.write('const ${className.lowerFirst}Names = {');
   for (final name in names) {
     namesFileStream.write('\n "$name": $className.$name,');
   }
-  namesFileStream.write('};\n\n');
+  namesFileStream.write('\n};\n');
   await namesFileStream.flush();
   print('Updated ${f.path}');
+  return className;
+}
+
+extension StringX on String {
+  String get lowerFirst => this[0].toLowerCase() + substring(1);
 }
