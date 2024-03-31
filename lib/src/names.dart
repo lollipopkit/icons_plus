@@ -19039,7 +19039,6 @@ const ionIconsNames = {
 
 const packNames = {
  "clarity": clarityNames,
- "flags": flagsNames,
  "bootstrap": bootstrapNames,
  "heroIcons": heroIconsNames,
  "evaIcons": evaIconsNames,
@@ -19049,7 +19048,6 @@ const packNames = {
  "fontAwesome": fontAwesomeNames,
  "teenyIcons": teenyIconsNames,
  "pixelArtIcons": pixelArtIconsNames,
- "brands": brandsNames,
  "iconsax": iconsaxNames,
  "boxIcons": boxIconsNames,
  "lineAwesome": lineAwesomeNames,

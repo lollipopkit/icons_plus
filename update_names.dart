@@ -32,6 +32,8 @@ void main() async {
 
   namesFileStream.write('\n\nconst packNames = {');
   for (final className in classNames) {
+    // skip these two (they are not IconData)
+    if (className == 'Flags' || className == 'Brands') continue; 
     final classNameLower = className.lowerFirst;
     namesFileStream.write('\n "$classNameLower": ${classNameLower}Names,');
   }
@@ -47,6 +49,8 @@ Future<String?> _doParse(File f) async {
   final names = <String>{};
   String? className;
   for (final line in lines) {
+    if (line.trimLeft().startsWith('//')) continue;
+
     if (className == null) {
       final classNameMatch = classNameReg.firstMatch(line);
       if (classNameMatch != null) {
@@ -57,8 +61,6 @@ Future<String?> _doParse(File f) async {
       }
       continue;
     }
-
-    if (line.trimLeft().startsWith('//')) continue;
 
     final constNameMatch = constNameReg.firstMatch(line);
     if (constNameMatch != null) {
