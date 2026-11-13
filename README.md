@@ -14,20 +14,18 @@ Here is the list of all icon sets in Icons Plus.
 1. `NEW` [AntDesign](#1-antdesign) version: 5.12.2
 2. [Bootstrap](#2-bootstrap) version: 1.11.2
 3. [BoxIcons](#3-boxicons) version: 2.1.4
-4. `NEW` [Brands Logo](#4-brands)
-5. `NEW` [Clarity](#5-clarity) version: 12
-6. [EvaIcons](#6-evaicons) version: 1.1.3
-7. [Flags Logo](#7-flag)
-8. [FontAwesome](#8-fontawesome) version: 6.5.1
-9. [HeroIcons](#9-heroicons) version: 2.0.18
-10. [Iconsax](#10-iconsax) version: 1.0
-11. [IonIcons](#11-ionicons) version: 7.1.0
-12. [LineAwesome](#12-lineawesome) version: 1.3.1
-13. `NEW` [MingCute](#13-mingcute) version: 2.89
-14. [OctIcons](#14-octicons) version: 19.8.0
-15. [PixelArtIcons](#15-pixelarticons) version: 1.8
-16. `NEW` [TeenyIcons](#16-teenyicons) version: latest
-17. `NEW` [ZondIcons](#17-zondicons) version: latest
+4. `NEW` [Clarity](#4-clarity) version: 12
+5. [EvaIcons](#5-evaicons) version: 1.1.3
+6. [FontAwesome](#6-fontawesome) version: 6.5.1
+7. [HeroIcons](#7-heroicons) version: 2.0.18
+8. [Iconsax](#8-iconsax) version: 1.0
+9. [IonIcons](#9-ionicons) version: 7.1.0
+10. [LineAwesome](#10-lineawesome) version: 1.3.1
+11. `NEW` [MingCute](#11-mingcute) version: 2.89
+12. [OctIcons](#12-octicons) version: 19.8.0
+13. [PixelArtIcons](#13-pixelarticons) version: 1.8
+14. `NEW` [TeenyIcons](#14-teenyicons) version: latest
+15. `NEW` [ZondIcons](#15-zondicons) version: latest
 
 ## 1. AntDesign
 AntDesign provides three types of icons: Fill, Outline, and TwoTone icons. To use Fill icons, simply append `_fill` as a suffix. For example, for a fill, you can use `Icon(AntDesign.gitlab_fill)`, while `Icon(AntDesign.sketch_outline)` and `Icon(environment_twotone)` are used for Outline and TwoTone, respectively.
@@ -62,18 +60,7 @@ BoxIcons provides three types of icons: Regular, Solid, and Logo icons. To use R
   Icon(BoxIcons.bxs_cookie),
 ```
 
-## 4. Brands
-Here's an example showing how to use Brands Logo.
-
-![Brands](https://github.com/chouhan-rahul/icons_plus/assets/82075108/c0bb0ed8-25c4-4035-82a9-db8ab71af12d)
-
-```dart
-  Brand(Brands.icons8),
-  Brand(Brands.the_big_bang_theory),
-  Brand(Brands.android_studio),
-```
-
-## 5. Clarity
+## 4. Clarity
 Clarity provides three types of icons: Outline, Solid, and Line icons. To use Outline icons, simply append `_outline` as a suffix. `_solid` and `_line` are used for Solid and Line, respectively.
 
 ![Claity](https://github.com/chouhan-rahul/icons_plus/assets/82075108/3e3995de-0318-4a15-9390-6de4bad05601)
@@ -84,7 +71,7 @@ Clarity provides three types of icons: Outline, Solid, and Line icons. To use Ou
   Icon(Clarity.camera_line),
 ```
 
-## 6. EvaIcons
+## 5. EvaIcons
 EvaIcons offers two types of icons: Outline and Fill icons. If you prefer using outline icons, simply add `_outline` as a suffix.
 
 ![EvaIcons](https://github.com/chouhan-rahul/icons_plus/assets/82075108/0540c185-e843-4429-9eb6-339894f3eed3)
@@ -95,18 +82,7 @@ EvaIcons offers two types of icons: Outline and Fill icons. If you prefer using 
   Icon(EvaIcons.clipboard_outline),
 ```
 
-## 7. Flag
-Here's an example showing how to use Flags.
-
-![Flags](https://github.com/chouhan-rahul/icons_plus/assets/82075108/4cb2060c-6a4e-415f-be64-95504cfbf7f9)
-
-```dart
-  Flag(Flags.india),
-  Flag(Flags.united_kingdom),
-  Flag(Flags.united_states_of_america),
-```
-
-## 8. FontAwesome
+## 6. FontAwesome
 FontAwesome provides three types of icons: Regular, Solid, and Brand icons. To use Solid icons, simply append `_solid` as a suffix. For example, for a solid, you can use `Icon(FontAwesome.bug_solid)`, while `Icon(FontAwesome.folder_open)` and `Icon(FontAwesome.stripe_brand)` are used for Regular and Brand, respectively.
 
 ![FontAwesome](https://github.com/chouhan-rahul/icons_plus/assets/82075108/604352ab-b725-49ca-acf4-bd4c5e092cd9)
@@ -117,7 +93,7 @@ FontAwesome provides three types of icons: Regular, Solid, and Brand icons. To u
   Icon(FontAwesome.bug_solid),
 ```
 
-## 9. HeroIcons
+## 7. HeroIcons
 Here's an example showing how to use HeroIcons.
 
 ![HeroIcons](https://github.com/chouhan-rahul/icons_plus/assets/82075108/15ec217a-9567-4b2d-8057-13a76bdac507)
@@ -128,7 +104,7 @@ Here's an example showing how to use HeroIcons.
   Icon(HeroIcons.play_circle),
 ```
 
-## 10. Iconsax
+## 8. Iconsax
 Iconsax provides three types of icons: Bold, Bulk, and Outline icons. To use Bold icons, simply append `_bold` as a suffix. For example, for a bold, you can use `Icon(Iconsax.cake_bold)`, while `Icon(Iconsax.clock_bulk)` and `Icon(Iconsax.dollar_circle_outline)` are used for Bulk and Outline, respectively.
 
 ![Iconsax](https://github.com/chouhan-rahul/icons_plus/assets/82075108/1318d2cf-0323-4e4f-9a45-a282b8542e40)
@@ -139,7 +115,7 @@ Iconsax provides three types of icons: Bold, Bulk, and Outline icons. To use Bol
   Icon(Iconsax.dollar_circle_outline),
 ```
 
-## 11. IonIcons
+## 9. IonIcons
 Here's an example showing how to use IonIcons.
 
 ![IonIcons](https://github.com/chouhan-rahul/icons_plus/assets/82075108/d117fe37-24a9-4b8a-9a15-57bd55cb9b5d)
@@ -150,7 +126,7 @@ Here's an example showing how to use IonIcons.
   Icon(IonIcons.logo_react),
 ```
 
-## 12. LineAwesome
+## 10. LineAwesome
 Here's an example showing how to use LineAwesome icons.
 
 ![LineAwesome](https://github.com/chouhan-rahul/icons_plus/assets/82075108/617c19c6-dd2b-4ff3-928b-2918d0e62319)
@@ -161,7 +137,7 @@ Here's an example showing how to use LineAwesome icons.
   Icon(LineAwesome.cc_visa),
 ```
 
-## 13. MingCute
+## 11. MingCute
 Here's an example showing how to use MingCute icons.
 
 ![MingCute](https://github.com/chouhan-rahul/icons_plus/assets/82075108/39edffb1-1020-4d7c-9d48-23e19d50fa5d)
@@ -172,7 +148,7 @@ Here's an example showing how to use MingCute icons.
   Icon(MingCute.currency_bitcoin_fill),
 ```
 
-## 14. OctIcons
+## 12. OctIcons
 Here's an example showing how to use OctIcons.
 
 ![OctIcons](https://github.com/chouhan-rahul/icons_plus/assets/82075108/fb6a8253-c837-4d9d-8831-50c9cf6bf712)
@@ -183,7 +159,7 @@ Here's an example showing how to use OctIcons.
   Icon(OctIcons.verified),
 ```
 
-## 15. PixelArtIcons
+## 13. PixelArtIcons
 Here's an example showing how to use PixelArtIcons.
 
 ![PixelArtIcons](https://github.com/chouhan-rahul/icons_plus/assets/82075108/37c0d860-26ac-4eaf-a030-22873bf92f30)
@@ -194,7 +170,7 @@ Here's an example showing how to use PixelArtIcons.
   Icon(PixelArtIcons.heart),
 ```
 
-## 16. TeenyIcons
+## 14. TeenyIcons
 Here's an example showing how to use TeenyIcons.
 
 ![TeenyIcons](https://github.com/chouhan-rahul/icons_plus/assets/82075108/d60b3997-0434-49b1-ac72-ef87b4f53ff8)
@@ -205,7 +181,7 @@ Here's an example showing how to use TeenyIcons.
   Icon(TeenyIcons.android),
 ```
 
-## 17. ZondIcons
+## 15. ZondIcons
 Here's an example showing how to use ZondIcons.
 
 ![ZondIcons](https://github.com/chouhan-rahul/icons_plus/assets/82075108/f0c0ac16-7a08-47dd-93dc-ef3380c0273f)

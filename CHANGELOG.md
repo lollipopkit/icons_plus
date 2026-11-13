@@ -1,3 +1,7 @@
+## 6.0.0
+
+* Removed `Brand`, `Flag` and the name maps with their SVG images (10 MB in every app); the icon fonts stay.
+
 ## 5.0.0
 
 - All exsiting icons sets are updated with the latest version
