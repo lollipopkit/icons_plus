@@ -18,14 +18,10 @@ class Home extends StatelessWidget {
           const Icon(Bootstrap.google),
           /// BoxIcons' Icon
           const Icon(BoxIcons.bxl_apple),
-          /// Brand's Logo
-          Brand(Brands.icons8),
           /// Clarity's Icon
           const Icon(Clarity.map_outline_badged),
           /// EvaIcons' Icon
           const Icon(EvaIcons.clipboard),
-          /// Flag's Logo
-          Flag(Flags.india),
           /// FontAwesome's Icons
           const Icon(FontAwesome.angular_brand),
           /// HeroIcons' Icon
